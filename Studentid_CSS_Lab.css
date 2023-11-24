@@ -1,0 +1,27 @@
+/* Styles for all devices */
+@media all {
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+  
+    h1 {
+      color: #333;
+    }
+  
+    /* Add more styles for all devices as needed */
+  }
+  
+  /* Styles for print */
+  @media print {
+    body {
+      font-family: Times, serif;
+      background-color: aqua;
+    }
+  
+    h1 {
+      color: #000;
+    }
+  
+    /* Add more print-specific styles as needed */
+  }
